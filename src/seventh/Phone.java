@@ -1,0 +1,8 @@
+package seventh;
+
+public class Phone extends Device{
+    public Phone(){
+        System.out.println("Phone ready");
+    }
+
+}
