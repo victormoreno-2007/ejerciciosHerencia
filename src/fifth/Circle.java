@@ -1,8 +1,8 @@
 package fifth;
 
 public class Circle extends Shape {
-    double Circunferencia;
+    double radio;
     public double calcularArea(){
-    return Circunferencia * Math.PI;
+    return  Math.PI * radio * radio;
     }
 }
